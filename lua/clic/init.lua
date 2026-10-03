@@ -10,7 +10,7 @@ end
 vim.api.nvim_create_user_command("Lic", function(opts)
   local the_project = opts.fargs[1] or "___"
   insert( 
-    'This file is a part of \n'.. the_project..
+    'This file is a part of '.. the_project..'\n'..
     'Copyright (C) Vladimir Petrenko\n'..
     '\n'..
     'This program is free software: you can redistribute it and/or modify\n'..
